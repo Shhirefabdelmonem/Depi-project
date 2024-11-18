@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Home.cshtml";
+}
+@model Book
+
+<form asp-action="Add" method="post" class="container mt-5">
+    <fieldset class="border p-4 rounded shadow-sm">
+        <legend class="w-auto text-primary font-weight-bold">Add Book Information</legend>
+
+        <div class="form-group">
+            <label class="text-primary" for="name">Name</label>
+            <input class="form-control" asp-for="name" id="name" required />
+        </div>
+
+        <div class="form-group">
+            <label class="text-primary" for="genre">Genre</label>
+            <input class="form-control" asp-for="gener" id="genre" required />
+        </div>
+
+       
+
+        <div class="form-group">
+            <label class="text-primary" for="photo">Photo URL</label>
+            <input class="form-control" asp-for="photo" id="photo" />
+        </div>
+
+        <div class="form-group">
+            <label class="text-primary" for="author">Author</label>
+            <input class="form-control" asp-for="Author" id="author" required />
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-lg">Add</button>
+        </div>
+    </fieldset>
+</form>

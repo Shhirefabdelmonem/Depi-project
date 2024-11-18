@@ -1,0 +1,17 @@
+﻿
+@{
+    Layout = "PurchaseLayout";
+}
+@model BorrowViewModel
+
+<h2>Confirm Borrow</h2>
+
+<h3>Are you sure you want to borrow the book: <strong>@Model.BookTitle</strong>?</h3>
+<p>If you return the book after the return date of "@Model.borrowdate", you will pay a fine of 10 L.E for each day late.</p>
+
+<form asp-action="Borrow" method="post">
+    <input class="hidden-inputs" type="hidden" asp-for="UserId" />
+    <input class="hidden-inputs" type="hidden" asp-for="BookId" />
+    <button type="submit">Confirm</button>
+</form>
+   

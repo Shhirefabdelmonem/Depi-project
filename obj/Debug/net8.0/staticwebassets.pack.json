@@ -1,0 +1,397 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LisbrarySystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LisbrarySystem.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\css\\AllBooks.css",
+      "PackagePath": "staticwebassets\\css\\AllBooks.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\Book2.webp",
+      "PackagePath": "staticwebassets\\image\\Book2.webp"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book1.jpeg",
+      "PackagePath": "staticwebassets\\image\\book1.jpeg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book10.jpg",
+      "PackagePath": "staticwebassets\\image\\book10.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book11.jpeg",
+      "PackagePath": "staticwebassets\\image\\book11.jpeg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book12.webp",
+      "PackagePath": "staticwebassets\\image\\book12.webp"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book13.jpg",
+      "PackagePath": "staticwebassets\\image\\book13.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book14.webp",
+      "PackagePath": "staticwebassets\\image\\book14.webp"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book15.jpg",
+      "PackagePath": "staticwebassets\\image\\book15.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book16.jpg",
+      "PackagePath": "staticwebassets\\image\\book16.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book17.jpeg",
+      "PackagePath": "staticwebassets\\image\\book17.jpeg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book18.jpg",
+      "PackagePath": "staticwebassets\\image\\book18.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book19.jpg",
+      "PackagePath": "staticwebassets\\image\\book19.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book20.jpg",
+      "PackagePath": "staticwebassets\\image\\book20.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book21.jpeg",
+      "PackagePath": "staticwebassets\\image\\book21.jpeg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book22.jpg",
+      "PackagePath": "staticwebassets\\image\\book22.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book23.jpeg",
+      "PackagePath": "staticwebassets\\image\\book23.jpeg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book24.jpg",
+      "PackagePath": "staticwebassets\\image\\book24.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book25.jpg",
+      "PackagePath": "staticwebassets\\image\\book25.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book26.jpeg",
+      "PackagePath": "staticwebassets\\image\\book26.jpeg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book3.webp",
+      "PackagePath": "staticwebassets\\image\\book3.webp"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book4.png",
+      "PackagePath": "staticwebassets\\image\\book4.png"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book5.jpg",
+      "PackagePath": "staticwebassets\\image\\book5.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book6.jpeg",
+      "PackagePath": "staticwebassets\\image\\book6.jpeg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book7.jpg",
+      "PackagePath": "staticwebassets\\image\\book7.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book8.jpg",
+      "PackagePath": "staticwebassets\\image\\book8.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\book9.jpg",
+      "PackagePath": "staticwebassets\\image\\book9.jpg"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\image\\image-2.png",
+      "PackagePath": "staticwebassets\\image\\image-2.png"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\learn back-end\\Depi Project\\Depi_Projet\\LisbrarySystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LisbrarySystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LisbrarySystem.props",
+      "PackagePath": "build\\LisbrarySystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LisbrarySystem.props",
+      "PackagePath": "buildMultiTargeting\\LisbrarySystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LisbrarySystem.props",
+      "PackagePath": "buildTransitive\\LisbrarySystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

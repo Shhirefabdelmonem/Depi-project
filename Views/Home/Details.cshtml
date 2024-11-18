@@ -1,0 +1,141 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Home.cshtml";
+}
+@model Book
+<html>
+    <head>
+        <style>
+            .details-container {
+                max-width: 800px;
+                margin: 40px auto;
+                text-align: center;
+            }
+
+            /* Image Styling */
+            .details-container img {
+                width: 400px;
+                height: 400px;
+                border-radius: 15px;
+                margin-bottom: 20px;
+            }
+
+            /* Text Styling */
+            .details-container h2 {
+                font-size: 28px;
+                color: #343a40;
+                margin-bottom: 20px;
+            }
+
+            .details-container b {
+                display: block;
+                font-size: 18px;
+                margin-bottom: 10px;
+                color: #495057;
+            }
+
+            /* Button Styling */
+            .details-container a {
+                display: inline-block;
+                padding: 10px 20px;
+                margin: 10px 5px;
+                font-size: 16px;
+                color: white;
+                background-color: #007bff;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+            }
+
+            .details-container a.btn-success {
+                background-color: #28a745;
+            }
+
+            .details-container a.btn-secondary {
+                background-color: #6c757d;
+            }
+
+            .details-container a:hover {
+                background-color: #0056b3;
+            }
+
+            .btn-success:hover {
+                background-color: #218838;
+            }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+            }
+
+            /* Admin Buttons */
+            .admin-actions {
+                margin-top: 20px;
+            }
+            /* Custom Styling for "Not Available" Message */
+            .not-available-message {
+                font-size: 18px;
+                font-weight: bold;
+                color: #dc3545; /* Red color for the message */
+                margin-bottom: 15px;
+            }
+
+            /* Red Button Styling (Bootstrap's btn-danger already provides red background) */
+            .btn-danger {
+                background-color: #dc3545; /* Red background */
+                color: white; /* White text */
+                padding: 10px 20px;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+
+            .btn-danger:hover {
+                background-color: #c82333; /* Darker red on hover */
+            }
+
+
+        </style>
+    </head>
+    <body>
+    <div class="details-container">
+        <img src="/image/@Model.photo" alt="Photo of @Model.name" />
+        <h2>Name: @Model.name</h2>
+        @if (Model.CountNum != 0)
+        {
+            <b>Book is Available</b>
+        }
+        else
+        {
+            <b>Book isn't available</b>
+        }
+        <b>Type: @Model.gener</b>
+        <b>Author: @Model.Author</b>
+        <b>Price : @Model.price</b>
+        <!-- Buttons for Borrowing and Buying -->
+        @if (Model.avalibilty)
+        {
+            <a class="btn btn-success" asp-controller="Purrchase" asp-action="Borrow" asp-route-id="@Model.id">Borrow</a>
+            <a class="btn btn-secondary" asp-controller="Purrchase" asp-action="Buy" asp-route-id="@Model.id">Buy</a>
+        }
+        else
+        {
+            <p class="unavailable-message">Book Isn't Available</p>
+            <a class="btn btn-danger" asp-route-id="@Model.id">Borrow</a>
+            <a class="btn btn-danger" asp-route-id="@Model.id">Buy</a>
+        }
+
+        <a class="btn btn-primary" asp-action="AllBooks" asp-controller="Home" >Home Page</a>
+
+        <!-- Admin Controls (Only if the user is an admin) -->
+        @if (ViewContext.HttpContext.User.IsInRole("AdminsRole"))
+        {
+            <div class="admin-actions">
+                <a class="btn btn-primary" asp-controller="CRUD" asp-action="Delete" asp-route-id="@Model.id">Delete</a>
+                <a class="btn btn-primary" asp-controller="CRUD" asp-action="Update" asp-route-id="@Model.id">Update</a>
+            </div>
+        }
+    </div>
+</body>
+</html >

@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Header Styling */
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .login-Register a {
+            margin-left: 20px;
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-Register a:hover {
+            background-color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Search Bar Styling */
+        form.d-flex {
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        input[type="search"] {
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            font-size: 16px;
+        }
+
+        button {
+            margin-left: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Book List Styling */
+        .part {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin-bottom: 40px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover {
+            transform: translateY(-10px);
+        }
+
+        .item img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .item h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #343a40;
+        }
+
+        .item .btn {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+
+        /* Category Links Styling */
+        a[asp-action="AllType"] {
+            display: block;
+            margin: 20px 0;
+            font-size: 20px;
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a[asp-action="AllType"]:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        /* Admin Action Buttons */
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .button-container {
+            text-align: right; /* Align the button to the right */
+            margin-top: 40px;
+        }
+
+        .add-button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .add-button:hover {
+            background-color: #218838;
+        }
+        
+        fieldset {
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            border-radius: 10px;
+        }
+
+        legend {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .text-primary {
+            font-weight: bold;
+        }
+
+        .links-table {
+            width: 100%; /* Make the table full-width */
+            margin: 20px 0;
+            border-collapse: collapse; /* Collapse borders */
+        }
+
+        .links-table td {
+            padding: 15px;
+            text-align: center; /* Center-align the content */
+            border-bottom: 1px solid #ddd; /* Add a bottom border to the cells */
+        }
+
+        .nav-link {
+            font-family: "Muli-SemiBold";
+            font-size: 16px;
+            color: #007bff; /* Bootstrap's primary blue */
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none;
+            display: block; /* Ensure links take up full cell width */
+        }
+
+        .nav-link:hover {
+            background-color: #007bff; /* Hover background */
+            color: #fff; /* Hover text color */
+            text-decoration: none;
+        }
+
+        .nav-link.active {
+            background-color: #0056b3; /* Active link background */
+            color: #fff; /* Active link text color */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>BookNest</h1>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <div class="login-Register">
+                <a asp-controller="Account" asp-action="login">Login</a>
+                <a asp-controller="Account" asp-action="register">Register</a>
+            </div>
+        }
+        else
+        {
+            <div class="login-Register">
+                <a asp-controller="Account" asp-action="signout">Logout</a>
+                <div class="nav-link" style="margin-left: 10px;">Welcome, @User.Identity.Name!</div>
+            </div>
+
+        }
+    </div>
+    <table class="links-table">
+        <tr>
+            @if (ViewContext.HttpContext.User.IsInRole("AdminsRole"))
+            {
+                <td>
+                    <a class="nav-link" asp-controller="CRUD" asp-action="AdminBorrowedBooks">Borrowed Books</a>
+                </td>
+                <td>
+                    <a class="nav-link" asp-controller="CRUD" asp-action="AdminBoughtBooks">Bought Books</a>
+
+                </td>
+                <td>
+                    <a class="nav-link" asp-controller="CRUD" asp-action="Add">Add book</a>
+                </td>
+
+            }
+
+            @if (ViewContext.HttpContext.User.IsInRole("UsersRole"))
+            {
+                <td>
+                    <a class="nav-link" asp-controller="Purrchase" asp-action="MyBorrowedBooks">My Borrowed Books</a>
+                </td>
+                <td>
+                    <a class="nav-link" asp-controller="Purrchase" asp-action="MyBoughtBooks">My Bought Books</a>
+                </td>
+            }
+        </tr>
+    </table>
+    <form class="d-flex">
+        <input class=" col-xs-4" type="search" name="inpt" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" asp-controller="Home" asp-action="search" asp-route-inpt="inpt" type="submit">Search</button>
+    </form>
+
+    @RenderBody()
+</body>
+</html>

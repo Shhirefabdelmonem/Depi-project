@@ -1,0 +1,84 @@
+﻿
+@{
+    Layout = "_Home";
+}
+@model List<Book>
+<html>
+<head>
+    <link href="/css/AllBooks.css" rel="stylesheet" />
+</head>
+<body>
+   
+    <br />
+    <a asp-action="AllType" asp-route-type="Classic">Classic Books</a>
+    <div class="part">
+
+        @foreach (var item in Model.Where(s => s.gener == "Classic").Take(4))
+        {
+            <div class="item">
+                <img src="/image/@item.photo" alt="photo" />
+                <h2>@item.name</h2>
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.id">View Details</a>
+                @if (ViewContext.HttpContext.User.IsInRole("Admin"))
+                {
+                    <a class="btn btn-primary" asp-controller="CRUD" asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                    <a class="btn btn-primary" asp-controller="CRUD" asp-action="Update" asp-route-id="@item.id">Update</a>
+                }
+            </div>
+        }
+    </div>
+    <br />
+    <br />
+    <a asp-action="AllType" asp-route-type="Comedy" >Comedy Books</a>
+    <div class="part">
+
+        @foreach (var item in Model.Where(s => s.gener == "Comedy").Take(4))
+        {
+            <div class="item">
+                <img src="/image/@item.photo" alt="photo" />
+                <h2>@item.name</h2>
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.id">View Details</a>
+                @if (ViewContext.HttpContext.User.IsInRole("Admin"))
+                {
+                    <a class="btn btn-primary" asp-controller="CRUD" asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                    <a class="btn btn-primary" asp-controller="CRUD" asp-action="Update" asp-route-id="@item.id">Update</a>
+                }
+            </div>
+        }
+    </div>
+    <br />
+    <br />
+    <a asp-action="AllType" asp-route-type="Scientific">Scientific books</a>
+    <div class="part">
+
+        @foreach (var item in Model.Where(s => s.gener == "Scientific").Take(4))
+        {
+            <div class="item">
+                <img src="/image/@item.photo" alt="photo" />
+                <h2>@item.name</h2>
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.id">View Details</a>
+                
+                @if (ViewContext.HttpContext.User.IsInRole("Admin"))
+                {
+                    <a class="btn btn-primary" asp-controller="CRUD" asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                    <a class="btn btn-primary" asp-controller="CRUD" asp-action="Update" asp-route-id="@item.id">Update</a>
+                }
+
+            </div>
+        }
+    </div>
+    <br />
+    @if (ViewContext.HttpContext.User.IsInRole("Admin"))
+    {
+        <div class="button-container">
+            <a class="btn btn-success add-button" asp-controller="CRUD" asp-action="Add">Add New Book</a>
+        </div>
+    }
+   
+    <br />
+    <br />
+
+
+
+</body>
+</html>
